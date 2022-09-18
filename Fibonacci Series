@@ -1,15 +1,13 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // C++ program to print Fibonacci Series
 
-#include<iostream>
-using namespace std;
 int main()
 {
 	int num;
 	int firstTerm = 0, secondTerm = 1;
 	int nextTerm;
 	
-	cout << "Enter the sequence of number : " << "" ;
+	cout << "Enter the sequence of number : ";
 	cin >> num;
 	
 	// Here we are printing first and second term 
@@ -24,11 +22,10 @@ int main()
 		firstTerm = secondTerm;
 		secondTerm = nextTerm;
 		
-		cout << " " << nextTerm << " " ;
+		cout << nextTerm << " " ;
 	}
 	
 	return 0;
 	
 }
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
