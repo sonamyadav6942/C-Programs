@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// Program to Check if a Number is Prime Number or not in C++
+// C++ Program to Check if a Number is Prime Number or not
 
 #include<iostream>
 using namespace std;
