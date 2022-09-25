@@ -24,10 +24,13 @@ int main()
 	{
 		cout << temp << " is a palindrome number." << endl;
 	}
+	
 	else
+	
 	{
 		cout<< temp << " is not a palindrome number." << endl;
 	}
+	
 	return 0;
 }
 
